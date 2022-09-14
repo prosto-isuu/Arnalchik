@@ -1,0 +1,72 @@
+*{
+    
+}
+body{
+    background:  #E5E5E5;
+}
+.header{
+    position: absolute;
+    height: 58px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+
+    background:  #19849B;;
+}
+.bio{
+    position: absolute;
+    width: 559px;
+    height: 90px;
+    left: 706px;
+    top: 293px;
+
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0.01cm;
+
+    color: black;
+}
+.photo1{
+    position: absolute;
+    height: 355px;
+    left: 227px;
+    right: 802px;
+    top: 109px;
+
+}
+.header_text{
+    position: absolute;
+    width: 264px;
+    height: 34px;
+    left: calc(50% - 264px/2 - 5px);
+    top: calc(50% - 34px/2);
+
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.group{
+position: absolute;
+width: 1038.07px;
+height: 355px;
+left: 227px;
+top: 109px;
+
+}
+.linii{
+    height: 90px;
+width: 559px;
+left: 706px;
+top: 293px;
+border-radius: nullpx;
+
+}
