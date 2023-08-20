@@ -1,72 +1,80 @@
-*{
-    
-}
-body{
-    background:  #E5E5E5;
-}
-.header{
-    position: absolute;
-    height: 58px;
-    left: 0px;
-    right: 0px;
-    top: 0px;
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
 
-    background:  #19849B;;
-}
-.bio{
-    position: absolute;
-    width: 559px;
-    height: 90px;
-    left: 706px;
-    top: 293px;
-
-    font-family: 'Ubuntu', sans-serif;
-    font-style: normal;
-    font-weight: 400px;
-    font-size: 16px;
-    line-height: 18px;
-    letter-spacing: 0.01cm;
-
+body {
+    font-family: 'ADLaM Display', cursive;
+    /*#5e5373*/
+    /*background-color: #5e5373;*/
+    background-color: #fff;
     color: black;
 }
-.photo1{
-    position: absolute;
-    height: 355px;
-    left: 227px;
-    right: 802px;
-    top: 109px;
 
-}
-.header_text{
-    position: absolute;
-    width: 264px;
-    height: 34px;
-    left: calc(50% - 264px/2 - 5px);
-    top: calc(50% - 34px/2);
-
-    font-family: 'Ubuntu';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 30px;
-    line-height: 34px;
-    letter-spacing: 0.01em;
+header {
+    height: 50px;
+    background: #4fb6a5;
+    color: white;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
     text-transform: uppercase;
-
-    color: #FFFFFF;
 }
-.group{
-position: absolute;
-width: 1038.07px;
-height: 355px;
-left: 227px;
-top: 109px;
 
+.winter {
+    width: 320px;
+    background: #ece89d;
+    display: flex;
+    justify-content: center;
+    padding: 64px 48px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    /*justify-content: center;*/
 }
-.linii{
-    height: 90px;
-width: 559px;
-left: 706px;
-top: 293px;
-border-radius: nullpx;
 
+.img {
+    height: auto;
+    width: 300px;
 }
+
+button {
+    background: #4fb6a5;
+}
+
+button:hover {
+    cursor: progress;
+}
+
+
+/*.slider-container {*/
+/*    position: relative;*/
+/*    max-width: 100%;*/
+/*    overflow: hidden;*/
+/*}*/
+
+/*.slider {*/
+/*    display: flex;*/
+/*    transition: transform 0.3s ease-in-out;*/
+/*}*/
+
+/*.slider img {*/
+/*    width: 500px;*/
+/*    height: auto;*/
+/*}*/
+
+/*.controls {*/
+/*    position: absolute;*/
+/*    bottom: 20px;*/
+/*    left: 50%;*/
+/*    transform: translateX(-50%);*/
+/*}*/
+
+/*.controls button {*/
+/*    font-size: 24px;*/
+/*    background: transparent;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    padding: 5px 10px;*/
+/*}*/
+
