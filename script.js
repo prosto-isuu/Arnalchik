@@ -1,20 +1,18 @@
-const slider = document.querySelector('.slider');
-const prevButton = document.querySelector('.prev');
-const nextButton = document.querySelector('.next');
+const photo1Btn = document.querySelector('#photo1');
+const photo2Btn = document.querySelector('#photo2');
+const photo1 = document.querySelector('.albom-1');
+const photo2 = document.querySelector('.albom-2');
 
-let currentIndex = 0;
-
-nextButton.addEventListener('click', () => {
-    currentIndex = (currentIndex + 1) % slider.children.length;
-    updateSliderPosition();
-});
-
-prevButton.addEventListener('click', () => {
-    currentIndex = (currentIndex - 1 + slider.children.length) % slider.children.length;
-    updateSliderPosition();
-});
-
-function updateSliderPosition() {
-    const slideWidth = slider.children[0].offsetWidth;
-    slider.style.transform = `translateX(-${currentIndex * slideWidth}px)`;
+function onChange1Photo() {
+    const img = photo1.querySelector('img');
+    if (img) {
+        const imageAttribute = img.getAttribute('src');
+        if (imageAttribute === './images/photo-1.jpeg') {
+            img.setAttribute('src', './images/1.jpg');
+        } else {
+            img.setAttribute('src', './images/photo-1.jpeg');
+        }
+    }
 }
+
+photo1Btn.onclick = onChange1Photo; // Pass the function reference without parentheses

@@ -1,47 +1,58 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My baby - it's my life</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
-<body>
-<header>
-    Акылбеков Арнал 👶🏻
-</header>
-<div class="description">
-    Меня зовут Арнал мне скоро исполниться 2 года, этот сайт для моих родных которые хотят
-    видеть как я вырастаю, сюда я периодически буду вкладывать свои свежие фото
-</div>
-<div class="winter">
-    <div class="slider-container">
-        <div class="slider">
-            <video controls width="250">
-                <source src="/media/cc0-videos/flower.webm" type="video/webm" />
+<html lang="ru">
+    <head>
+        <meta name="description" content="Меня зовут Арнал, я старший и единственный сын двух моих любимых родителей">
+        <meta charset="utf-8"/>
+        <link rel="stylesheet" href="./style.css">
+        <title>Акылбеков Арнал</title>
+    </head>
+    <body>
+    <header>
+<!--        <img src="" alt="">-->
+        <nav>
+            <ul>
+                <li>Главная</li>
+                <li>ФотоАльбом</li>
+                <li>Моя Биография</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>
+                Здесь будет храниться мои фотографии
+            </h1>
+            <blockquote
+                    cite="https://1gai.ru/publ/525698-70-citat-o-fotografii-kotorye-vdohnovjat-kak-novichkov-tak-i-professionalov.html">
+                <a href="">
+                    «Мы делаем фотографии, чтобы понять, что значит для нас наша жизнь». – Ральф Хаттерсли
+                </a>
+            </blockquote>
+            <article class="albom-1" >
+                <img src="./images/photo-1.jpeg" alt="это я с моей бабушкой">
+                <button id="photo1">
+                    Сменить фото
+                </button>
+            </article>
+            <article class="albom-2" >
+                <img src="./images/photo-2.jpeg" alt="это я с моей бабушкой">
+                <button id="photo2">
+                    Сменить фото
+                </button>
+            </article>
+        </section>
+        <aside>
+            <td>
+                <tl>
+                    Важные сведения
+                </tl>
+            </td>
+        </aside>
+    </main>
+    <footer>
+        <em>Все права защищены @2023</em>
+    </footer>
+    <script src="script.js">
 
-                <source src="/media/cc0-videos/flower.mp4" type="video/mp4" />
-
-                Download the
-                <a href="/media/cc0-videos/flower.webm">WEBM</a>
-                or
-                <a href="/media/cc0-videos/flower.mp4">MP4</a>
-                video.
-            </video>
-
-            <!-- Добавьте другие изображения -->
-        </div>
-        <div class="controls">
-            <button class="prev">←</button>
-            <button class="next">→</button>
-        </div>
-    </div>
-
-</div>
-<script src="script.js"></script>
-</body>
+    </script>
+    </body>
 </html>

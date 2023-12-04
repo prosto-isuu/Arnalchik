@@ -1,80 +1,36 @@
-@import url(reset.css);
-@import url('https://fonts.googleapis.com/css2?family=ADLaM+Display&display=swap');
-
-body {
-    font-family: 'ADLaM Display', cursive;
-    /*#5e5373*/
-    /*background-color: #5e5373;*/
-    background-color: #fff;
-    color: black;
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
 }
 
-header {
-    height: 50px;
-    background: #4fb6a5;
-    color: white;
-    width: 100vw;
+main {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: underline;
-    text-transform: uppercase;
+    /*background: teal;*/
 }
 
-.winter {
-    width: 320px;
-    background: #ece89d;
-    display: flex;
-    justify-content: center;
-    padding: 64px 48px;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    /*justify-content: center;*/
-}
-
-.img {
+img {
+    width: 400px;
     height: auto;
-    width: 300px;
 }
 
-button {
-    background: #4fb6a5;
+section,article {
+    margin: 6px 8px;
+    padding: 6px 8px;
 }
 
-button:hover {
-    cursor: progress;
+article {
+    box-shadow: 0 6px 6px 3px rgba(2, 2, 2, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+ul {
+    display: flex;
+    justify-content: space-around;
+}
 
-/*.slider-container {*/
-/*    position: relative;*/
-/*    max-width: 100%;*/
-/*    overflow: hidden;*/
-/*}*/
-
-/*.slider {*/
-/*    display: flex;*/
-/*    transition: transform 0.3s ease-in-out;*/
-/*}*/
-
-/*.slider img {*/
-/*    width: 500px;*/
-/*    height: auto;*/
-/*}*/
-
-/*.controls {*/
-/*    position: absolute;*/
-/*    bottom: 20px;*/
-/*    left: 50%;*/
-/*    transform: translateX(-50%);*/
-/*}*/
-
-/*.controls button {*/
-/*    font-size: 24px;*/
-/*    background: transparent;*/
-/*    border: none;*/
-/*    cursor: pointer;*/
-/*    padding: 5px 10px;*/
-/*}*/
-
+li {
+}
